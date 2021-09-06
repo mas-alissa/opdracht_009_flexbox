@@ -1,0 +1,39 @@
+.blogpost {
+  width: 300px;
+  border: 1px solid black;
+}
+
+.container {
+  display: flex;
+  height: 500px;
+}
+
+.one {
+  align-self: center;
+  flex-grow: 1;
+}
+.two {
+  align-self: flex-end;
+  flex-grow: 2;
+}
+.three {
+  align-self: center;
+  flex-grow: 3;
+}
+.four {
+  align-self: flex-start;
+  flex-grow: 4;
+}
+
+.five {
+  align-self: center;
+  flex-grow: 5;
+}
+
+.link-to-home-page {
+  color: black;
+  text-decoration: none;
+  border: 1px solid gray;
+  padding: 10px;
+  background-color: bisque;
+}

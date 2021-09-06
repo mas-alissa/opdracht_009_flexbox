@@ -1,0 +1,184 @@
+body {
+  background-color: bisque;
+}
+
+header {
+  border: 2px solid green;
+  background-color: lightblue;
+}
+
+.main-part {
+  border: 5px dotted black;
+  color: white;
+  font-size: 20px;
+  background-color: brown;
+  font-family: "Courier New", Courier, monospace;
+}
+a {
+  color: black;
+}
+header,
+main {
+  margin-bottom: 10px;
+  padding: 20px;
+
+  width: 50%;
+  margin: 12px auto;
+}
+
+.horizontaal li {
+  display: inline;
+}
+.horizontaal {
+  text-align: center;
+  margin-top: 30px;
+}
+h1 {
+  text-align: center;
+}
+
+main img {
+  border: 3px solid rgba(38, 145, 56, 0.747);
+  border-radius: 10px;
+}
+.footer {
+  width: 60%;
+  margin: 50px auto;
+  border: 2px solid rgb(89, 184, 184);
+  padding: 10px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.img-page-contact-me {
+  width: 300px;
+}
+header h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+@media (min-width: 320px) {
+  .img-one {
+    width: 50%;
+  }
+  .horizontaal {
+    padding: 0;
+  }
+  header h2 {
+    font-size: 15px;
+  }
+  .img-page-contact-me {
+    width: 50%;
+  }
+}
+.main-part p {
+  font-size: 30px;
+  line-height: 1.5em;
+}
+
+.line {
+  width: 50%;
+  margin: auto;
+  height: 3px;
+  background-color: wheat;
+}
+
+.link-to-first-page {
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  border: 2px solid black;
+  width: 30%;
+  margin: 80px auto 0 auto;
+  background-color: goldenrod;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 15px;
+  border-radius: 10px;
+}
+.link-to-first-page:hover {
+  box-shadow: 0 0 10px black;
+}
+
+.link-to-second-page {
+  text-decoration: none;
+  font-size: 20px;
+
+  text-align: center;
+  border: 2px solid black;
+
+  background-color: goldenrod;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 8px;
+  border-radius: 10px;
+  font-size: 13px;
+}
+.link-to-second-page:hover {
+  box-shadow: 0 0 10px black;
+}
+
+.form input {
+  margin-bottom: 30px;
+  width: 100%;
+  height: 35px;
+  border-radius: 8px;
+}
+.form input[type="submit"] {
+  background-color: rgb(116, 156, 63);
+  color: white;
+}
+textarea {
+  display: block;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+.center {
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .horizontaal li a {
+    margin: 10px;
+  }
+  body {
+    background-color: rgb(52, 134, 145);
+    color: rgb(58, 84, 131);
+  }
+  .main-part {
+    background-color: green;
+    border: 2px solid pink;
+    border-radius: 10px;
+  }
+  .main-part p {
+    font-size: 20px;
+    line-height: 1.3em;
+  }
+  .main-part img {
+    border: 2px solid pink;
+  }
+  .heading {
+    font-size: 18px;
+  }
+  .footer h3 {
+    color: cyan;
+  }
+  .footer ul li {
+    color: cyan;
+  }
+  .img-one {
+    width: 38%;
+  }
+  header h2 {
+    font-size: 25px;
+  }
+  .img-page-contact-me {
+    width: 40%;
+  }
+}
+
+@media (max-width: 934px) {
+  .horizontaal li {
+    display: block;
+    margin-top: 60px;
+  }
+}

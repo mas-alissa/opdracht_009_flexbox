@@ -1,0 +1,35 @@
+body {
+  background-color: cornflowerblue;
+}
+form {
+  text-align: center;
+  margin: 50px auto;
+  border: 2px solid black;
+  width: 50%;
+  border-radius: 10px;
+  background-color: lightblue;
+}
+
+.Add-Chefs-Recipe {
+  text-align: center;
+  color: black;
+}
+
+.link-back {
+  text-decoration: none;
+  color: black;
+}
+
+.button-down {
+  display: block;
+  margin: auto;
+  padding: 10px;
+  background-color: aquamarine;
+}
+
+.button-down:hover {
+  background-color: black;
+}
+.button-down:hover .link-back {
+  color: white;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1 class="Add-Chefs-Recipe">- Add  Chefs  Recipe -</h1>
+  </header>
+   <form name="contact" method="POST" data-netlify="true">
+       <p>
+        <input type="text" placeholder="Name" name="Chef-Name">
+       </p>
+
+       <p>
+        <input type="email" placeholder="Email address" name="Chef-Email">
+       </p>
+
+       <p>
+        <input type="tel" placeholder="Telephone number" name="Chef-Telephone">
+       </p>
+
+       <p>
+         <input type="number" placeholder="Age" name="Chef-Age">
+       </p>
+
+       <p>
+        <label>Male</label><input type="radio"  name="gender" value="Male">
+        <label>Female</label><input  type="radio" name="gender" value="female">
+        <label>Other</label><input type="radio" name="gender" value="other">
+      </p>
+
+      <p>
+          <h4>Favorite-cuisine :</h4>
+         <label>french</label><input  type="checkbox" name="favorite cuisine" value="french">
+         <label>italian</label><input  type="checkbox" name="favorite cuisine" value="italian">
+         <label>spanish</label><input  type="checkbox" name="favorite cuisine" value="spanish">
+         <label>arabic</label><input  type="checkbox" name="favorite cuisine" value="arabic">
+      </p>
+      <p>
+          <label for="favorite-color">favorite color of apron</label> <input type="color" name="favorite-color" id="favorite-color"> 
+      </p>
+      <p>
+          <h4>Biography :</h4>
+         <textarea name="Biography" cols="30" rows="10"></textarea>
+      </p>
+      
+      <p>
+         <h4>Recipe :</h4> <input type="file" name="recipe-file"  id="recipe">
+      </p>
+
+      <p>
+          <label for="chef-website">Your Website</label> <input type="url" name="chef-website" id="chef-website">
+      </p>
+      <p>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+      </p>
+   </form>
+   <button class="button-down"><a class="link-back" href="index.html">BACK TO HOME PAGE</a></button>
+</body>
+</html>
